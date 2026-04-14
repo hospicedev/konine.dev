@@ -28,64 +28,61 @@ title: 'Help'
                                 <div class="section-block">
                                     <h3 class="question">
                                         <i class="fas fa-question-circle"></i>
-                                        What is Koseven?
+                                        What is Konine?
                                     </h3>
                                     <div class="answer">
-                                        Koseven is an elegant, open source, and object oriented HMVC framework built
-                                        using PHP7+, by a team of volunteers. It aims to be swift, secure, and small.
-                                        It is the successor of defunct Kohana Framework.
+                                        Konine is a PHP 8.4+ HMVC framework providing end-of-life maintenance and security
+                                        support. It is the successor to Koseven (which was itself the successor to the
+                                        defunct Kohana Framework). Koseven was archived on April 14, 2026, and Konine
+                                        exists to keep the framework running for existing applications.
                                     </div>
                                 </div><!--//section-block-->
                                 <div class="section-block">
                                     <h3 class="question">
                                         <i class="fas fa-question-circle"></i>
-                                        Will it work as dropin of Kohana?
+                                        What is the project status?
                                     </h3>
                                     <div class="answer">
-                                        If you were using 3.3.x version of Kohana you may need to make some small changes.
-                                        Please refer to upgrading from Kohana section of the documentation.
+                                        Konine is in <strong>end-of-life support mode</strong>. This means maintenance
+                                        and security fixes only — no new features will be added. The goal is to keep the
+                                        framework running until PHP 9 reaches end of life, or until the maintainers are
+                                        no longer able to continue.
                                     </div>
                                 </div><!--//section-block-->
                                 <div class="section-block">
                                     <h3 class="question">
                                         <i class="fas fa-question-circle"></i>
-                                        Why a Kohana alternative?
+                                        Will it work as a drop-in replacement for Koseven or Kohana?
                                     </h3>
                                     <div class="answer">
-                                        Kohana 3.3.x was used by us in many live projects, and the original team stopped the development.
-                                        A while ago, on Feb 4 2017 "Shadowhand" announced the final retirement - "Kohana is DEAD".
-
-                                        Before the final announcement everyone started to check if it was possible to
-                                        migrate existing projects to other alternative PHP frameworks.
-                                        As it turned out switching would be a complex and lengthy job.
-                                        So it became clear that keeping the project alive and updated is a priority.
-
-                                        And so the Koseven repository was born and will keep this repository updated
-                                        for future releases of PHP, giving the framework a clear perspective for the future.
+                                        If you were using Koseven, Konine should be a direct drop-in replacement.
+                                        If you were using Kohana 3.3.x you may need to make some small changes.
+                                        Please refer to the upgrading from Kohana section of the documentation.
+                                    </div>
+                                </div><!--//section-block-->
+                                <div class="section-block">
+                                    <h3 class="question">
+                                        <i class="fas fa-question-circle"></i>
+                                        Why does this project exist?
+                                    </h3>
+                                    <div class="answer">
+                                        Kohana 3.3.x was used in many live projects, and the original team stopped development.
+                                        On Feb 4, 2017, "Shadowhand" announced the final retirement — "Kohana is DEAD".
+                                        Koseven was created to keep the framework alive and compatible with modern PHP versions.
+                                        When Koseven was archived on April 14, 2026, Konine was created to continue providing
+                                        maintenance and security support for the many applications still running on this framework.
                                     </div>
                                 </div>
                                 <div class="section-block">
                                     <h3 class="question">
                                         <i class="fas fa-question-circle"></i>
-                                        Are modules of the original Kohana compatible?
+                                        Are modules from Koseven and Kohana compatible?
                                     </h3>
                                     <div class="answer">
                                         Yes they are, just be sure that they are compatible with Kohana 3.3.X.
-                                        An overview of Koseven's team own modules can be found <a href="https://github.com/koseven/koseven/tree/master/modules" target="_blank">here.</a>
+                                        An overview of bundled modules can be found <a href="https://github.com/hospicedev/konine.dev/tree/master/modules" target="_blank">here.</a>
 
-                                        There's also a list online with a nice overview of koseven modules, maintained
-                                        by our community. You can consult this list <a href="/modules" target="_blank">here.</a>
-                                    </div>
-                                </div>
-                                <div class="section-block">
-                                    <h3 class="question">
-                                        <i class="fas fa-question-circle"></i>
-                                        What are the future plans for the project?
-                                    </h3>
-                                    <div class="answer">
-                                        Our focus is not only to keep the framework compatible with new releases of PHP, fix bugs
-                                        and improve the speed, but also adding exciting new features to it. Make sure to
-                                        follow us on <a href="https://twitter.com/KO7_PHP" target="_blank">Twitter</a> to get the latest news.
+                                        There's also a list online with a nice overview of community modules. You can consult this list <a href="/modules" target="_blank">here.</a>
                                     </div>
                                 </div>
                             </section>
@@ -94,12 +91,13 @@ title: 'Help'
                                 <div class="section-block">
                                     <h3 class="question">
                                         <i class="fas fa-question-circle"></i>
-                                        Is Koseven secure?
+                                        Is Konine secure?
                                     </h3>
                                     <div class="answer">
-                                        Koseven aims to be a very secure framework with integrated Security mechanisms
-                                        for CSRF, SQL Injections, XSS and many more. Detailed Information about this can be found
+                                        Konine aims to be a very secure framework with integrated security mechanisms
+                                        for CSRF, SQL Injections, XSS and many more. Detailed information about this can be found
                                         in our <a href="/documentation/system/security">Documentation</a>.
+                                        Security fixes are a primary focus of this end-of-life support project.
                                     </div>
                                 </div><!--//section-block-->
                                 <div class="section-block">
@@ -108,10 +106,9 @@ title: 'Help'
                                         I found a Security Issue, what now?
                                     </h3>
                                     <div class="answer">
-                                        We try to archive maximum Security by detailed review of code changes and pull
-                                        requests. If you still find an Security vulnerability, please contact the core developers
-                                        via our <a href="https://telegram.me/koseven">Telegram Group</a> and we will
-                                        try to fix it asap.
+                                        We take security seriously. If you find a security vulnerability, please report it
+                                        via <a href="https://github.com/hospicedev/konine.dev/security" target="_blank">GitHub Security Advisories</a>
+                                        and we will try to fix it as soon as possible.
                                     </div>
                                 </div>
                                 <div class="section-block">
@@ -120,7 +117,7 @@ title: 'Help'
                                     </h3>
                                     <div class="answer">
                                         If you've stumbled across a bug, please help us out by reporting what you have found.
-                                        Simply visit <a href="https://github.com/koseven/koseven/issues/new?template=bug_report.md">our GitHub Issue page</a>
+                                        Simply visit <a href="https://github.com/hospicedev/konine.dev/issues/new?template=bug_report.md">our GitHub Issue page</a>
                                         and submit your issue. Thanks a lot!
                                     </div>
                                 </div>
@@ -130,13 +127,11 @@ title: 'Help'
                                 <div class="section-block">
                                     <h3 class="question">
                                         <i class="fas fa-question-circle"></i>
-                                        Where can i get Support for Koseven?
+                                        Where can I get support for Konine?
                                     </h3>
                                     <div class="answer">
-                                        You need Help, How-To's, Guides,...? Please consider to use our <a href="https://koseven.discourse.group/" target="_blank">Forum</a>
-                                        maybe your answer is already there. If not feel free to open a topic and ask for it.
-
-                                        If you need more detailed help or support you can also <a href="https://telegram.me/koseven">Join our Telegram Group</a>.
+                                        You need help, how-to's, guides? Please use <a href="https://github.com/hospicedev/konine.dev/discussions" target="_blank">GitHub Discussions</a> —
+                                        your answer may already be there. If not, feel free to open a topic and ask.
                                     </div>
                                 </div>
                             </section>

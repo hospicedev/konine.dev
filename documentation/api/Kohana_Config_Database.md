@@ -28,7 +28,7 @@ extends <a href='/documentation/api/Kohana_Config_Database_Reader'>Kohana_Config
 <dt>copyright</dt>
 <dd>(c) Kohana Team</dd>
 <dt>license</dt>
-<dd>https://koseven.ga/LICENSE.md</dd>
+<dd>https://konine.dev/LICENSE.md</dd>
 </dl>
 <br />
 <div class='toc row d-none d-sm-flex d-md-flex d-lg-flex d-xl-flex'>

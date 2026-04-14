@@ -214,7 +214,7 @@ class Documentation_Generator {
 		$zip = $this->_tmp_dir.DIRECTORY_SEPARATOR.$this->_branch.'.zip';
 
 		// Download Files from GitHub Repo
-		if ( ! copy('https://github.com/koseven/koseven/archive/'.$this->_branch.'.zip', $zip))
+		if ( ! copy('https://github.com/hospicedev/konine.dev/archive/'.$this->_branch.'.zip', $zip))
 		{
 			$this->kill('Could not download repository files. Check your internet connection and try again.');
 		}
@@ -237,15 +237,15 @@ class Documentation_Generator {
 		$archive->close();
 
 		// Set Path to cloned files
-		self::$_cloned_files_path = $this->_tmp_dir.DIRECTORY_SEPARATOR.'koseven-'.$this->_branch.DIRECTORY_SEPARATOR;
+		self::$_cloned_files_path = $this->_tmp_dir.DIRECTORY_SEPARATOR.'konine.dev-'.$this->_branch.DIRECTORY_SEPARATOR;
 		self::$_modules_path = self::$_cloned_files_path.'modules'.DIRECTORY_SEPARATOR;
 		self::$_system_path = self::$_cloned_files_path.'system'.DIRECTORY_SEPARATOR;
 
-		// Define those, so we can use some koseven helpers
+		// Define those, so we can use some konine helpers
 		define('APPPATH', self::$_cloned_files_path.'application'.DIRECTORY_SEPARATOR);
 		define('SYSPATH', self::$_cloned_files_path.'system'.DIRECTORY_SEPARATOR);
 
-		// Fake Route so we can make use of HTML class...dirty but koseven forces us to
+		// Fake Route so we can make use of HTML class...dirty but konine forces us to
 		if ($this->_parse_api)
 		{
 			Route::set('docs/api', '', ['class' => '[a-zA-Z0-9_]+']);

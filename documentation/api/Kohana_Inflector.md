@@ -20,7 +20,7 @@ the context it is used in. For example, changing a word into a plural form.</p>
 <dt>copyright</dt>
 <dd>(c) Kohana Team</dd>
 <dt>license</dt>
-<dd>https://koseven.ga/LICENSE.md</dd>
+<dd>https://konine.dev/LICENSE.md</dd>
 </dl>
 <br />
 <div class='toc row d-none d-sm-flex d-md-flex d-lg-flex d-xl-flex'>

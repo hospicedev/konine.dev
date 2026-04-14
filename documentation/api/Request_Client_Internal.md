@@ -23,7 +23,7 @@ extends <a href='/documentation/api/Kohana_Request_Client'>Kohana_Request_Client
 <dt>copyright</dt>
 <dd>(c) Kohana Team</dd>
 <dt>license</dt>
-<dd>https://koseven.ga/LICENSE.md</dd>
+<dd>https://konine.dev/LICENSE.md</dd>
 <dt>since</dt>
 <dd>3.1.0</dd>
 </dl>

@@ -28,7 +28,7 @@ php-curl extention. This is the default driver for all external requests.</p>
 <dt>copyright</dt>
 <dd>(c) Kohana Team</dd>
 <dt>license</dt>
-<dd>https://koseven.ga/LICENSE.md</dd>
+<dd>https://konine.dev/LICENSE.md</dd>
 <dt>uses</dt>
 <dd>[PHP cURL](http://php.net/manual/en/book.curl.php)</dd>
 </dl>

@@ -2,13 +2,15 @@
 layout: documentation
 title: Kohana
 ---
-# What is Kohana?
+# What is Konine?
 
-Kohana is an open source, [object oriented](http://en.wikipedia.org/wiki/Object-oriented_programming) [MVC](http://en.wikipedia.org/wiki/Model–view–controller "Model View Controller") [web framework](http://en.wikipedia.org/wiki/Web_application_framework) built using [PHP5](http://php.net/manual/intro-whatis "PHP Hypertext Preprocessor") by a team of volunteers that aims to be swift, secure, and small.
+Konine is the successor to Koseven, which was itself the successor to Kohana. It is an open source, [object oriented](http://en.wikipedia.org/wiki/Object-oriented_programming) [MVC](http://en.wikipedia.org/wiki/Model–view–controller "Model View Controller") [web framework](http://en.wikipedia.org/wiki/Web_application_framework) built using PHP 8.4+ by a team of volunteers that aims to be swift, secure, and small.
 
-[!!] Kohana is licensed under a [BSD license](https://github.com/koseven/koseven/blob/HEAD/LICENSE.md), so you can legally use it for any kind of open source, commercial, or personal project.
+**Koseven was archived on April 14, 2026.** Konine exists as end-of-life support (maintenance and security fixes only). The goal is to keep the framework running until PHP 9 reaches end of life, or until the maintainers are no longer able to continue.
 
-## What makes Kohana great?
+[!!] Konine is licensed under a [BSD license](https://github.com/hospicedev/konine.dev/blob/HEAD/LICENSE.md), so you can legally use it for any kind of open source, commercial, or personal project.
+
+## What makes Konine great?
 
 Anything can be extended using the unique [filesystem](/documentation/kohana/files) design, little or no [configuration](/documentation/kohana/config) is necessary, [error handling](/documentation/kohana/errors) helps locate the source of errors quickly, and [debugging](/documentation/kohana/debugging) and [profiling](/documentation/kohana/profiling) provide insight into the application.
 
@@ -16,8 +18,8 @@ To help secure your applications, tools for [input validation](/documentation/ko
 
 ## Contribute to the Documentation
 
-We are working very hard to provide complete documentation. To help improve the guide, please [fork the userguide](http://github.com/kohana/userguide), make your changes, and send a pull request. If you are not familiar with Git, you can also submit a [feature request](https://github.com/koseven/koseven/issues) (requires registration).
+We are working very hard to provide complete documentation. To help improve the guide, please [fork the repository](https://github.com/hospicedev/konine.dev), make your changes, and send a pull request. If you are not familiar with Git, you can also submit a [feature request](https://github.com/hospicedev/konine.dev/issues) (requires registration).
 
 ## Unofficial Documentation
 
-If you are having trouble finding an answer here, your answer may be found by searching the [forum](http://forum.kohanaframework.org/) or [Stack Overflow](http://stackoverflow.com/questions/tagged/kohana) followed by asking your question on either.  Additionally, you can chat with the community of developers on the freenode [#kohana](/documentation/kohana/irc://irc.freenode.net/kohana) IRC channel or by joining our [Telegram group](https://telegram.me/koseven).
+If you are having trouble finding an answer here, your answer may be found by searching [Stack Overflow](http://stackoverflow.com/questions/tagged/kohana). Additionally, you can participate in [GitHub Discussions](https://github.com/hospicedev/konine.dev/discussions).

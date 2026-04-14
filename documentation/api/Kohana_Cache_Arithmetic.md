@@ -18,7 +18,7 @@ arithmetic, addition and subtraction</p>
 <dt>copyright</dt>
 <dd>(c) Kohana Team</dd>
 <dt>license</dt>
-<dd>https://koseven.ga/LICENSE.md</dd>
+<dd>https://konine.dev/LICENSE.md</dd>
 <dt>since</dt>
 <dd>3.2.0</dd>
 </dl>

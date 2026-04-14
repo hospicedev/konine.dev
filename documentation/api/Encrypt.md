@@ -18,7 +18,7 @@ extends <a href='/documentation/api/Kohana_Encrypt'>Kohana_Encrypt</a>
 <dd>(c) 2007-2012 Kohana Team</dd>
 <dd>(c) 2016-2018 Koseven Team</dd>
 <dt>license</dt>
-<dd>https://koseven.ga/LICENSE.md</dd>
+<dd>https://konine.dev/LICENSE.md</dd>
 </dl>
 <br />
 <div class='callout-block callout-info'>

@@ -35,7 +35,7 @@ before executing an external request- ideally in the application bootstrap.</p>
 <dt>copyright</dt>
 <dd>(c) Kohana Team</dd>
 <dt>license</dt>
-<dd>https://koseven.ga/LICENSE.md</dd>
+<dd>https://konine.dev/LICENSE.md</dd>
 <dt>uses</dt>
 <dd>[PHP Streams](http://php.net/manual/en/book.stream.php)</dd>
 </dl>

@@ -1,6 +1,6 @@
 ---
 name: Bug report
-about: Create a bug report to help us improve koseven
+about: Create a bug report to help us improve Konine
 title: ''
 labels: 'bug'
 assignees: ''

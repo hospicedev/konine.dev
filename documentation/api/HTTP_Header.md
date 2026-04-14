@@ -29,7 +29,7 @@ function available within the PECL HTTP library.</p>
 <dt>copyright</dt>
 <dd>(c) Kohana Team</dd>
 <dt>license</dt>
-<dd>https://koseven.ga/LICENSE.md</dd>
+<dd>https://konine.dev/LICENSE.md</dd>
 </dl>
 <br />
 <div class='callout-block callout-info'>

@@ -44,7 +44,7 @@ client can be injected into the request object.</p>
 <dt>copyright</dt>
 <dd>(c) Kohana Team</dd>
 <dt>license</dt>
-<dd>https://koseven.ga/LICENSE.md</dd>
+<dd>https://konine.dev/LICENSE.md</dd>
 <dt>uses</dt>
 <dd>[PECL HTTP](http://php.net/manual/en/book.http.php)</dd>
 </dl>

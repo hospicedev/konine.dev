@@ -28,14 +28,14 @@ title: 'Start'
                                 <div class="section-block">
                                     <p>
                                         You can get the latest stable release with the download link or directly on
-                                        <a href="https://github.com/koseven/koseven">github</a>. This will give you a fully
+                                        <a href="https://github.com/hospicedev/konine.dev">GitHub</a>. This will give you a fully
                                         functional application with an application, modules, and system directory.
                                     </p>
-                                    <a href="https://github.com/koseven/koseven/archive/devel.zip"
+                                    <a href="https://github.com/hospicedev/konine.dev/archive/devel.zip"
                                        class="btn btn-green"
                                        target="_blank">
                                         <i class="fas fa-download"></i>
-                                        Download latest Koseven.zip
+                                        Download latest Konine.zip
                                     </a>
                                 </div>
                             </section>
@@ -44,23 +44,23 @@ title: 'Start'
                                 <div id="step1" class="section-block">
                                     <h3 class="block-title">By Download</h3>
                                     <p>
-                                        Once downloaded, you should extract the Koseven application to a directory where the
+                                        Once downloaded, you should extract the Konine application to a directory where the
                                         web server can access it. Going forward, we are going to assume you've extracted the
                                         application to the root directory of your webserver and configured your document
-                                        root to be the public folder of Koseven such that
+                                        root to be the public folder of Konine such that
                                         <code>http://localhost/index.php</code> is pointing to the <code>index.php</code>
-                                        file in the Koseven release.
+                                        file in the Konine release.
                                     </p>
                                 </div>
                                 <div id="step2" class="section-block">
-                                    <h3 class="block-title">By Github</h3>
+                                    <h3 class="block-title">By GitHub</h3>
                                     <p>
-                                        The source code for Koseven is hosted with GitHub. To install Koseven using the
-                                        github source code first you need to install git. Visit http://help.github.com for
+                                        The source code for Konine is hosted with GitHub. To install Konine using the
+                                        GitHub source code first you need to install git. Visit http://help.github.com for
                                         details on how to install git on your platform.
 
-                                        Use the following command to install Koseven from GitHub:
-                                        <code class="language-git">git clone https://github.com/koseven/koseven .</code>
+                                        Use the following command to install Konine from GitHub:
+                                        <code class="language-git">git clone https://github.com/hospicedev/konine.dev .</code>
                                     </p>
                                 </div>
                             </section>
@@ -79,11 +79,11 @@ title: 'Start'
 date_default_timezone_set('America/Sao_Paulo');</code></pre>
                                     </p>
                                     <p>
-                                        Set the base_url in the KO7::init call to reflect the location of the koseven folder
+                                        Set the base_url in the KO7::init call to reflect the location of the Konine folder
                                         on your server relative to the document root.
 <pre><code class="language-php">/**
- * Example of koseven's installation at /var/www/koseven and
- * Apache's DocumentRoot configured to /var/www/koseven/public
+ * Example of Konine's installation at /var/www/konine and
+ * Apache's DocumentRoot configured to /var/www/konine/public
  */
  Kohana::init(array(
      'base_url' => '/',
@@ -170,4 +170,3 @@ sudo chmod -R a+rwx application/logs</code></pre>
 
 </body>
 </html>
-

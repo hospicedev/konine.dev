@@ -24,7 +24,7 @@ extends <a href='/documentation/api/Kohana_Database_Result'>Kohana_Database_Resu
 <dt>copyright</dt>
 <dd>(c) Kohana Team</dd>
 <dt>license</dt>
-<dd>https://koseven.ga/LICENSE.md</dd>
+<dd>https://konine.dev/LICENSE.md</dd>
 </dl>
 <br />
 <div class='toc row d-none d-sm-flex d-md-flex d-lg-flex d-xl-flex'>
