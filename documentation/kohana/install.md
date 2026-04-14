@@ -80,11 +80,39 @@ Once your install page reports that your environment is set up correctly you nee
 
 ## Installing Kohana From GitHub
 
-The [source code](https://github.com/hospicedev/konine.dev) for Kohana is hosted with [GitHub](http://github.com). To install Kohana using the github source code first you need to install [git](http://git-scm.com/). Visit [http://help.github.com](http://help.github.com) for details on how to install git on your platform.
+The [source code](https://github.com/hospicedev/konine) for Kohana is hosted with [GitHub](http://github.com). To install Kohana using the github source code first you need to install [git](http://git-scm.com/). Visit [http://help.github.com](http://help.github.com) for details on how to install git on your platform.
 
 Use the following command to install Kohana from GitHub:
 ~~~
-git clone git@github.com:koseven/koseven.git .
+git clone https://github.com/hospicedev/konine.git .
 ~~~
 
 [!!] For more information on installing Kohana using git, see the [Working with Git](/documentation/kohana/tutorials/git) tutorial.
+
+## Migrating from Koseven
+
+If you have an existing checkout of `koseven/koseven`, you can start pulling updates from Konine without losing your local history or your existing remote.
+
+**Option 1 — Add Konine as a second remote (recommended)**
+
+This keeps your `origin` pointing at Koseven and adds `konine` as a separate remote, so you can pull in updates selectively:
+
+~~~
+git remote add konine https://github.com/hospicedev/konine.git
+git fetch konine
+git merge konine/master
+~~~
+
+From this point on, run `git pull konine master` whenever you want to pull in the latest maintenance updates.
+
+**Option 2 — Replace origin with Konine**
+
+If you no longer need to reference the Koseven remote, you can point `origin` directly at Konine:
+
+~~~
+git remote set-url origin https://github.com/hospicedev/konine.git
+git fetch origin
+git merge origin/master
+~~~
+
+In either case, Konine is backwards compatible with Koseven, so no application changes should be required. Refer to the [Upgrading from Kohana](/documentation/kohana/upgrading-from-kohana) guide if you are coming from Kohana 3.3.x rather than Koseven.

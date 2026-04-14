@@ -1,6 +1,7 @@
 ## [Kohana](/documentation/kohana/index)
 
 - [Installation](/documentation/kohana/install)
+- [Migrating from Koseven](/documentation/kohana/install#migrating-from-koseven)
 - Getting Started
    - [Conventions and Style](/documentation/kohana/conventions)
    - [Model View Controller](/documentation/kohana/mvc)

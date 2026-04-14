@@ -8,7 +8,7 @@ Konine is the successor to Koseven, which was itself the successor to Kohana. It
 
 **Koseven was archived on April 14, 2026.** Konine exists as end-of-life support (maintenance and security fixes only). The goal is to keep the framework running until PHP 9 reaches end of life, or until the maintainers are no longer able to continue.
 
-[!!] Konine is licensed under a [BSD license](https://github.com/hospicedev/konine.dev/blob/HEAD/LICENSE.md), so you can legally use it for any kind of open source, commercial, or personal project.
+[!!] Konine is licensed under a [BSD license](https://github.com/hospicedev/konine/blob/HEAD/LICENSE.md), so you can legally use it for any kind of open source, commercial, or personal project.
 
 ## What makes Konine great?
 
@@ -18,8 +18,8 @@ To help secure your applications, tools for [input validation](/documentation/ko
 
 ## Contribute to the Documentation
 
-We are working very hard to provide complete documentation. To help improve the guide, please [fork the repository](https://github.com/hospicedev/konine.dev), make your changes, and send a pull request. If you are not familiar with Git, you can also submit a [feature request](https://github.com/hospicedev/konine.dev/issues) (requires registration).
+We are working very hard to provide complete documentation. To help improve the guide, please [fork the repository](https://github.com/hospicedev/konine), make your changes, and send a pull request. If you are not familiar with Git, you can also submit a [feature request](https://github.com/hospicedev/konine/issues) (requires registration).
 
 ## Unofficial Documentation
 
-If you are having trouble finding an answer here, your answer may be found by searching [Stack Overflow](http://stackoverflow.com/questions/tagged/kohana). Additionally, you can participate in [GitHub Discussions](https://github.com/hospicedev/konine.dev/discussions).
+If you are having trouble finding an answer here, your answer may be found by searching [Stack Overflow](http://stackoverflow.com/questions/tagged/kohana). Additionally, you can participate in [GitHub Discussions](https://github.com/hospicedev/konine/discussions).
