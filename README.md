@@ -1,47 +1,40 @@
 <p align="center">
-  <b>Konine — End-of-Life Maintenance for the Koseven/Kohana PHP Framework</b>
-</p>
-<p align="center">
-  <a href="https://github.com/hospicedev/konine.dev/archive/master.zip" target="_blank"><img src="https://img.shields.io/badge/download-latest--stable-blue.svg"></a>
-  <a href="https://github.com/hospicedev/konine.dev/blob/master/LICENSE.md" target="_blank"><img src="https://img.shields.io/badge/license-BSD-green.svg" alt="License"></a>
+  <b>konine.dev — Documentation website for the Konine PHP Framework</b>
 </p>
 
-## Project Status
+> **This is the documentation repository**, not the framework itself.
+> The Konine framework lives at [hospicedev/konine](https://github.com/hospicedev/konine).
 
-**Koseven was archived on April 14, 2026.** Konine exists as end-of-life support (maintenance and security fixes only). The goal is to keep the framework running until PHP 9 reaches end of life, or until the maintainers are no longer able to continue. Konine supports PHP 8.4+.
+## About this repository
 
-## Website
+This repo contains the source for **[konine.dev](https://konine.dev)** — the official documentation website for the Konine framework. It is a [Jekyll](https://jekyllrb.com/) static site hosted on GitHub Pages. Every push to `master` triggers an automatic rebuild and deployment of the site.
 
-This website uses Jekyll, as it is natively supported by GitHub Pages. Every time someone pushes into this repository the page will be re-generated.
+If you are looking to **use or contribute to the framework itself**, head to [hospicedev/konine](https://github.com/hospicedev/konine).
 
 ## About Konine
 
-Konine is the successor to Koseven, which was itself the successor to Kohana. It is a PHP 8.4+ HMVC framework.
+Konine is the successor to Koseven, which was itself the successor to Kohana. It is a PHP 8.4+ HMVC framework providing end-of-life maintenance and security support.
 
-With integrated tools for:
-  - [Authentication](https://konine.dev/documentation/auth/)
-  - [Caching](https://konine.dev/documentation/cache/)
-  - [Databases](https://konine.dev/documentation/database/)
-  - [ORM](https://konine.dev/documentation/orm/)
-  - [Benchmarking](https://konine.dev/documentation/codebench/)
-  - [Image Manipulation](https://konine.dev/documentation/image/)
+**Koseven was archived on April 14, 2026.** Konine exists to keep the framework running until PHP 9 reaches end of life, or until the maintainers are no longer able to continue.
 
-and many more.
+## Contributing to the Documentation
 
-Released under a [BSD license](LICENSE), Konine can be used legally for any open source, commercial, or personal project.
+The documentation at [konine.dev](https://konine.dev) is maintained in this repository. Contributions are welcome — if you spot an error, an outdated page, or something that could be clearer, please:
 
-## I Need Help!
+1. Fork this repository ([hospicedev/konine.dev](https://github.com/hospicedev/konine.dev))
+2. Make your changes to the relevant Markdown files under `documentation/`
+3. Open a pull request against `master`
 
-Please open a topic in [GitHub Discussions](https://github.com/hospicedev/konine.dev/discussions) — your answer may already be there.
+See [CONTRIBUTING.md](CONTRIBUTING.md) for more details.
 
-## Documentation
+## Reporting issues
 
-Konine documentation can be found at [konine.dev/documentation](https://konine.dev/documentation).
+| Issue type | Where to report |
+|---|---|
+| Problem with the documentation or this website | [Open an issue here](https://github.com/hospicedev/konine.dev/issues/new) |
+| Bug in the Konine framework | [Open an issue in hospicedev/konine](https://github.com/hospicedev/konine/issues/new) |
+| Security vulnerability in the framework | [GitHub Security Advisories (konine)](https://github.com/hospicedev/konine/security) |
 
-## Reporting Bugs
+## Help & Discussions
 
-If you've stumbled across a bug, please help us out by [reporting](https://github.com/hospicedev/konine.dev/issues/new) what you have found.
-
-## Contributing
-
-Any help is more than welcome! Please see [Contributing](CONTRIBUTING.md) for detailed instructions.
+Framework questions and discussions belong in the [Konine GitHub Discussions](https://github.com/hospicedev/konine/discussions).
