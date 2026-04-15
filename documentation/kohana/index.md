@@ -18,7 +18,7 @@ To help secure your applications, tools for [input validation](/documentation/ko
 
 ## Contribute to the Documentation
 
-We are working very hard to provide complete documentation. To help improve the guide, please [fork the repository](https://github.com/hospicedev/konine), make your changes, and send a pull request. If you are not familiar with Git, you can also submit a [feature request](https://github.com/hospicedev/konine/issues) (requires registration).
+We are working very hard to provide complete documentation. To help improve the guide, please [fork the repository](https://github.com/hospicedev/konine.dev), make your changes, and send a pull request. If you are not familiar with Git, you can also submit a [feature request](https://github.com/hospicedev/konine.dev/issues) (requires registration).
 
 ## Unofficial Documentation
 
