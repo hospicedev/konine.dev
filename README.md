@@ -13,9 +13,9 @@ If you are looking to **use or contribute to the framework itself**, head to [ho
 
 ## About Konine
 
-Konine is the successor to Koseven, which was itself the successor to Kohana. It is a PHP 8.4+ HMVC framework providing end-of-life maintenance and security support.
+Konine is the successor to Koseven, which was itself the successor to Kohana. It is an actively maintained PHP 8.4+ HMVC framework.
 
-**Koseven was archived on April 14, 2026.** Konine exists to keep the framework running until PHP 9 reaches end of life, or until the maintainers are no longer able to continue.
+**Koseven was archived on April 14, 2026.** Konine keeps the framework running on modern PHP. Stability for existing applications comes first — PHP compatibility, security patches, and bug fixes always take priority — but the project also accepts feature requests and ships requested enhancements when they are built in a backwards-compatible way. The framework will be maintained until PHP 9 reaches end of life, or until the maintainers are no longer able to continue.
 
 ## Contributing to the Documentation
 
