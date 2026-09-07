@@ -6,7 +6,7 @@ title: Kohana
 
 Konine is the successor to Koseven, which was itself the successor to Kohana. It is an open source, [object oriented](http://en.wikipedia.org/wiki/Object-oriented_programming) [MVC](http://en.wikipedia.org/wiki/Model–view–controller "Model View Controller") [web framework](http://en.wikipedia.org/wiki/Web_application_framework) built using PHP 8.4+ by a team of volunteers that aims to be swift, secure, and small.
 
-**Koseven was archived on April 14, 2026.** Konine exists as end-of-life support (maintenance and security fixes only). The goal is to keep the framework running until PHP 9 reaches end of life, or until the maintainers are no longer able to continue.
+**Koseven was archived on April 14, 2026.** Konine is an actively maintained continuation. Stability for existing applications comes first — PHP compatibility, security patches, and bug fixes always take priority — but the project also accepts feature requests and ships requested enhancements when they are built in a backwards-compatible way. The framework will be maintained until PHP 9 reaches end of life, or until the maintainers are no longer able to continue.
 
 [!!] Konine is licensed under a [BSD license](https://github.com/hospicedev/konine/blob/HEAD/LICENSE.md), so you can legally use it for any kind of open source, commercial, or personal project.
 
